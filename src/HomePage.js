@@ -7,6 +7,7 @@ function HomePage() {
   const [videoFile, setVideoFile] = useState(null);
   const [selectedFileName, setSelectedFileName] = useState('');
 
+  //function to handle changes in title
   const handleTitleChange = (e) => {
     setTitle(e.target.value);
   };
